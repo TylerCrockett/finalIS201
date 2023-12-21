@@ -1,0 +1,43 @@
+body {
+    background-image: url(https://th.bing.com/th/id/OIP.cM441meFLsCn_6EknhyP4QHaFj?rs=1&pid=ImgDetMain);
+    background-repeat:repeat;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+}
+img {
+    border: 2px;
+    padding: 2px;
+
+}
+.centerme {
+     display: block;
+    margin: auto
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+.common {
+    position: absolute;
+}
+.header{
+    top: 0px;
+    height: 50px;
+    right: 5px;
+    left: 5px;
+}
+.footer {
+    z-index: 1;
+    position: fixed;
+    bottom: 0px;
+    display: block;
+    text-align: center;
+    background-color:black;
+}
+.mainbody {
+    top: 144px;
+    right: 130px;
+    left: 114px;
+    padding-right: 5px;
+    bottom: 50px;
+} 
